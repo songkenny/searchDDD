@@ -102,3 +102,10 @@ dist
 
 # TernJS port file
 .tern-port
+
+# https keys
+cert.pem
+key.pem
+
+#Neo4j credentials
+/database/password.js

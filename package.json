@@ -1,0 +1,38 @@
+{
+  "name": "searchddd",
+  "version": "1.0.0",
+  "description": "Application to help you find the nearest restaurant featured on Drivers, Diners, and Dives",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-dev": "nodemon server/index.js",
+    "react-dev": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/songkenny/searchDDD.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/songkenny/searchDDD/issues"
+  },
+  "homepage": "https://github.com/songkenny/searchDDD#readme",
+  "dependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-react": "^7.12.1",
+    "apoc": "^2.1.6",
+    "babel-loader": "^8.1.0",
+    "express": "^4.17.1",
+    "neo4j": "^2.0.0-RC2",
+    "neo4j-driver": "^4.1.2",
+    "nodemon": "^2.0.6",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "webpack": "^5.3.2"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.1.0"
+  }
+}
